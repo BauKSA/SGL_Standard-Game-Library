@@ -25,13 +25,13 @@ static void Memory_Diagnostics() {
 
 int main(int argc, char* argv[]) {
 	Entity entity = Entity_Create();
-	Speed_Pool[entity] = 156;
+	Speed_Pool[entity] = 128;
 	Position pos = { {0,0}, {0,0} };
 	Position_Pool[entity] = pos;
 
 	Entity_Activate(entity);
 
-	uint8_t counter = 0;
+	uint32_t counter = 0;
 
 	while (1) {
 		MovementSystem_Update();

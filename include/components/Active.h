@@ -14,7 +14,7 @@
 
 #endif // MAX_ENTITIES > 8 && MAX_ENTITIES >= BITS_PER_UNIT
 
-#endif // !MAX_ENTITIES
+#endif // !MAX_ENTITIES+
 
 
 typedef fxmem_uint Active;

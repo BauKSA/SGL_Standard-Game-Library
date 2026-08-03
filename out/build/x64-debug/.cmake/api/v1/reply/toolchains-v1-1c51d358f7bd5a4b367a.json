@@ -14,7 +14,7 @@
 					"linkLibraries" : []
 				},
 				"path" : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe",
-				"version" : "19.51.36243.0"
+				"version" : "19.51.36252.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -40,6 +40,6 @@
 	"version" : 
 	{
 		"major" : 1,
-		"minor" : 0
+		"minor" : 1
 	}
 }

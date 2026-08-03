@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "boludeo.exe"
+			"path" : "SGL_Standard-Game-Library.exe"
 		},
 		{
-			"path" : "boludeo.pdb"
+			"path" : "SGL_Standard-Game-Library.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 22,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -55,25 +55,19 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 29,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 11,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 1,
-				"line" : 15,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 25,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -85,26 +79,26 @@
 				"command" : 8,
 				"file" : 2,
 				"line" : 121,
-				"parent" : 8
+				"parent" : 7
 			},
 			{
 				"command" : 7,
 				"file" : 2,
 				"line" : 114,
-				"parent" : 9
+				"parent" : 8
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 69,
-				"parent" : 10
+				"parent" : 9
 			}
 		]
 	},
 	"codemodelVersion" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 10
 	},
 	"compileGroups" : 
 	[
@@ -127,18 +121,14 @@
 			[
 				{
 					"backtrace" : 5,
-					"define" : "LOWEST_MEMORY_SYS"
-				},
-				{
-					"backtrace" : 6,
-					"define" : "MAX_ENTITIES=64"
+					"define" : "MAX_ENTITIES=4"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 7,
-					"path" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/include"
+					"backtrace" : 6,
+					"path" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/include"
 				}
 			],
 			"language" : "C",
@@ -160,7 +150,7 @@
 			]
 		}
 	],
-	"id" : "boludeo::@6890427a1f51a3e7e1df",
+	"id" : "SGL_Standard-Game-Library::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -184,13 +174,13 @@
 		],
 		"language" : "C"
 	},
-	"name" : "boludeo",
-	"nameOnDisk" : "boludeo.exe",
+	"name" : "SGL_Standard-Game-Library",
+	"nameOnDisk" : "SGL_Standard-Game-Library.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 3,
-			"id" : "boludeo::@6890427a1f51a3e7e1df"
+			"id" : "SGL_Standard-Game-Library::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -318,7 +308,7 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 11,
+			"backtrace" : 10,
 			"path" : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/include/manifest/segmentheap.manifest",
 			"sourceGroupIndex" : 2
 		}

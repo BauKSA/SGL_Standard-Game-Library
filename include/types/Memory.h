@@ -42,7 +42,7 @@ typedef int64_t fxmem_multiplicator;
 #endif // !FPS
 
 
-#define FXD_SHIFT BITS_PER_UNIT
+#define FXD_SHIFT 8
 #define FXD_DT ((1 << FXD_SHIFT) / FPS)
 
 #endif // !_MEMORY_H_

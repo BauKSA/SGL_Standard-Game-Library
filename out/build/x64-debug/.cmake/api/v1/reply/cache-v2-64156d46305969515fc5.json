@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/out/build/x64-debug"
+			"value" : "c:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -371,7 +371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/out/build/x64-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo"
+			"value" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/out/install/x64-debug"
+			"value" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -651,7 +651,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "boludeo"
+			"value" : "SGL_Standard-Game-Library"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -807,7 +807,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2"
+			"value" : "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1034,6 +1034,42 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "SGL_Standard-Game-Library_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug"
+		},
+		{
+			"name" : "SGL_Standard-Game-Library_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SGL_Standard-Game-Library_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library"
+		},
+		{
 			"name" : "USE_LIMITED_MEMORY",
 			"properties" : 
 			[
@@ -1043,7 +1079,19 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "OFF"
+		},
+		{
+			"name" : "USE_LOWEST_MEMORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Activar modo de memoria m\u00ednima"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
@@ -1288,42 +1336,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/Bau_M/OneDrive/Documents/vcpkg/installed"
-		},
-		{
-			"name" : "boludeo_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/out/build/x64-debug"
-		},
-		{
-			"name" : "boludeo_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "boludeo_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo"
 		}
 	],
 	"kind" : "cache",

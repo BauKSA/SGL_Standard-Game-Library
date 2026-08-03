@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "boludeo",
+					"name" : "SGL_Standard-Game-Library",
 					"targetIndexes" : 
 					[
 						0
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "boludeo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-boludeo-Debug-8485d896aaa4ca88b911.json",
-					"name" : "boludeo",
+					"id" : "SGL_Standard-Game-Library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SGL_Standard-Game-Library-Debug-6f29d864b60a6c9a975f.json",
+					"name" : "SGL_Standard-Game-Library",
 					"projectIndex" : 0
 				}
 			]
@@ -50,12 +50,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo/out/build/x64-debug",
-		"source" : "C:/Users/Bau_M/OneDrive/Desktop/GameDev/Experimentos/boludeo"
+		"build" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug",
+		"source" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 10
 	}
 }

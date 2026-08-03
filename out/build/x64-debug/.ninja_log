@@ -1,13 +1,13 @@
 # ninja log v7
-21	78	8007611978605917	CMakeFiles/boludeo.dir/src/pools.c.obj	301befee1c02cb06
-26	85	8007611978651227	CMakeFiles/boludeo.dir/src/systems/active/activeEntities.c.obj	c0dcd524bdb3375f
-29	87	8007611978681225	CMakeFiles/boludeo.dir/src/systems/entity/createEntity.c.obj	cf98a322059ef403
-17	88	8007611978566394	CMakeFiles/boludeo.dir/src/main.c.obj	716a584059b1e48d
-32	104	8007611978711220	CMakeFiles/boludeo.dir/src/systems/movement/movementSystem.c.obj	8ac87bf58f345c90
-105	545	8007611979438701	boludeo.exe	1a450f3ac9329709
-28	87	8007612233833909	CMakeFiles/boludeo.dir/src/pools.c.obj	4eeff60dbb87ce09
-32	91	8007612233873913	CMakeFiles/boludeo.dir/src/systems/active/activeEntities.c.obj	47f76da0bf3a6374
-36	95	8007612233908962	CMakeFiles/boludeo.dir/src/systems/entity/createEntity.c.obj	f92b62290e785d90
-23	97	8007612233782042	CMakeFiles/boludeo.dir/src/main.c.obj	8ba58b58ecbb4ec8
-39	117	8007612233939091	CMakeFiles/boludeo.dir/src/systems/movement/movementSystem.c.obj	950bf59cac68eaa8
-117	600	8007612234725060	boludeo.exe	1a450f3ac9329709
+10	61	8074706074223625	CMakeFiles/SGL_Standard-Game-Library.dir/src/pools.c.obj	3f2c49f986273e12
+16	65	8074706074293635	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/active/activeEntities.c.obj	a90a58c27c891fa6
+22	68	8074706074348664	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/entity/createEntity.c.obj	1afa5e2d2f2db8aa
+5	70	8074706074173606	CMakeFiles/SGL_Standard-Game-Library.dir/src/main.c.obj	c98c8b5e555316d8
+27	87	8074706074398722	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/movement/movementSystem.c.obj	10ca8bebae88ad7b
+88	572	8074706074998706	SGL_Standard-Game-Library.exe	263ddff537148dda
+29	81	8074706181014152	CMakeFiles/SGL_Standard-Game-Library.dir/src/pools.c.obj	a9e35b8b15156b22
+35	83	8074706181064156	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/active/activeEntities.c.obj	be7803dd51a5c2a9
+40	86	8074706181119258	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/entity/createEntity.c.obj	f44cad842e181e1e
+22	97	8074706180933617	CMakeFiles/SGL_Standard-Game-Library.dir/src/main.c.obj	dfe957e762842517
+45	111	8074706181169276	CMakeFiles/SGL_Standard-Game-Library.dir/src/systems/movement/movementSystem.c.obj	3b68ea6c8425ba2c
+111	547	8074706181829259	SGL_Standard-Game-Library.exe	263ddff537148dda
