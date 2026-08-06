@@ -4,10 +4,13 @@
 #include <components/Speed.h>
 #include <components/Position.h>
 #include <components/Active.h>
+#include <components/RigidBody.h>
 
 #include <systems/entity/CreateEntity.h>
 #include <systems/active/ActiveEntities.h>
-#include <systems/movement/MovementSystem.h>
+#include <systems/physics/PhysicsSystem.h>
+
+#include <types/Vector.h>
 
 #include <stdio.h>
 #include <stdint.h>
@@ -25,23 +28,42 @@ static void Memory_Diagnostics() {
 
 int main(int argc, char* argv[]) {
 	Entity entity = Entity_Create();
-	Speed_Pool[entity] = 128;
+	Speed_Pool[entity] = 60;
 	Position pos = { {0,0}, {0,0} };
 	Position_Pool[entity] = pos;
 
+	RigidBody rb = { 0 };
+	rb.mass = 1;
+	rb.inverse_mass = 1 << FXD_SHIFT; // inverse_mass = 1.0 en punto fijo (1/1)
+	RigidBody_Pool[entity] = rb;
+
 	Entity_Activate(entity);
 
-	uint32_t counter = 0;
+	printf("frame | forces.x | velocity.x | pos.real.x\n");
+	printf("------|----------|------------|-----------\n");
 
-	while (1) {
-		MovementSystem_Update();
+	uint8_t f_count = 0;
+	uint8_t counted = 0;
 
-		counter++;
+	for (uint32_t frame = 1; frame <= 75; frame++) {
+		Vector2 force = { 200, 0 };
+		RigidBody_ApplyForces(entity, force); // se re-aplica cada frame
 
-		if (Position_Pool[entity].real.x > 1) break;
+		PhysicsSystem_Update();
+
+		RigidBody* rb_ptr = &RigidBody_Pool[entity];
+		printf("%5u | %8d | %10d | %10d\n",
+			frame, 40, rb_ptr->velocity.x, Position_Pool[entity].real.x);
+
+		if (Position_Pool[entity].real.x >= 1 && !counted) {
+			f_count = frame;
+			counted = 1;
+		}
+
 	}
 
-	printf("\nNeeded %d frames to move 1px\n\n\n", counter);
+	printf("\nDone: 75 frames\n\n");
+	printf("\nFrames to x = 1: %u frames\n\n", f_count);
 
 	Memory_Diagnostics();
 

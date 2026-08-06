@@ -2,9 +2,14 @@
 #define _VECTOR_H_
 #include <types/Memory.h>
 
-typedef struct Vector2 {
+typedef struct uVector2 {
 	fxmem_uint x;
 	fxmem_uint y;
+} uVector2;
+
+typedef struct Vector2 {
+	fxmem_int x;
+	fxmem_int y;
 } Vector2;
 
 typedef struct Vector2m {

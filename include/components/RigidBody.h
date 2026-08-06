@@ -1,7 +1,6 @@
 #ifndef _RIGIDBODY_H_
 #define _RIGIDBODY_H_
 #include <types/Vector.h>
-#include <types/Entity.h>
 #include <types/Memory.h>
 
 typedef struct RigidBody {

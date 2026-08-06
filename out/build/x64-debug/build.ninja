@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_SGL_Standard-Game-Library: phony || .
 
 build CMakeFiles\SGL_Standard-Game-Library.dir\src\main.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\main.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
   CONFIG = Debug
-  DEFINES = -DMAX_ENTITIES=4
+  DEFINES = -DMAX_ENTITIES=8
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
   INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
   OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
@@ -62,7 +62,7 @@ build CMakeFiles\SGL_Standard-Game-Library.dir\src\main.c.obj: C_COMPILER__SGL_S
 
 build CMakeFiles\SGL_Standard-Game-Library.dir\src\pools.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\pools.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
   CONFIG = Debug
-  DEFINES = -DMAX_ENTITIES=4
+  DEFINES = -DMAX_ENTITIES=8
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
   INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
   OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
@@ -73,7 +73,7 @@ build CMakeFiles\SGL_Standard-Game-Library.dir\src\pools.c.obj: C_COMPILER__SGL_
 
 build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\active\activeEntities.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\systems\active\activeEntities.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
   CONFIG = Debug
-  DEFINES = -DMAX_ENTITIES=4
+  DEFINES = -DMAX_ENTITIES=8
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
   INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
   OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
@@ -84,7 +84,7 @@ build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\active\activeEntities
 
 build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\entity\createEntity.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\systems\entity\createEntity.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
   CONFIG = Debug
-  DEFINES = -DMAX_ENTITIES=4
+  DEFINES = -DMAX_ENTITIES=8
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
   INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
   OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
@@ -95,11 +95,22 @@ build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\entity\createEntity.c
 
 build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\movement\movementSystem.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\systems\movement\movementSystem.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
   CONFIG = Debug
-  DEFINES = -DMAX_ENTITIES=4
+  DEFINES = -DMAX_ENTITIES=8
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
   INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
   OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
   OBJECT_FILE_DIR = CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\movement
+  TARGET_COMPILE_PDB = CMakeFiles\SGL_Standard-Game-Library.dir\
+  TARGET_PDB = SGL_Standard-Game-Library.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
+
+build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\physics\physicsSystem.c.obj: C_COMPILER__SGL_Standard-Game-Library_unscanned_Debug C$:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\src\systems\physics\physicsSystem.c || cmake_object_order_depends_target_SGL_Standard-Game-Library
+  CONFIG = Debug
+  DEFINES = -DMAX_ENTITIES=8
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /TC /W4
+  INCLUDES = -IC:\Users\Bau_M\OneDrive\Desktop\SGL_Standard-Game-Library\include
+  OBJECT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
+  OBJECT_FILE_DIR = CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\physics
   TARGET_COMPILE_PDB = CMakeFiles\SGL_Standard-Game-Library.dir\
   TARGET_PDB = SGL_Standard-Game-Library.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SGL_Standard-Game-Library.dir
@@ -112,7 +123,7 @@ build CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\movement\movementSyst
 #############################################
 # Link the executable SGL_Standard-Game-Library.exe
 
-build SGL_Standard-Game-Library.exe: C_EXECUTABLE_LINKER__SGL_Standard-Game-Library_Debug CMakeFiles\SGL_Standard-Game-Library.dir\src\main.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\pools.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\active\activeEntities.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\entity\createEntity.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\movement\movementSystem.c.obj | C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\manifest\segmentheap.manifest
+build SGL_Standard-Game-Library.exe: C_EXECUTABLE_LINKER__SGL_Standard-Game-Library_Debug CMakeFiles\SGL_Standard-Game-Library.dir\src\main.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\pools.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\active\activeEntities.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\entity\createEntity.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\movement\movementSystem.c.obj CMakeFiles\SGL_Standard-Game-Library.dir\src\systems\physics\physicsSystem.c.obj | C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\manifest\segmentheap.manifest
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console

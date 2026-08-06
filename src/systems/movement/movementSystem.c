@@ -7,8 +7,6 @@
 #include <types/Entity.h>
 #include <types/Memory.h>
 
-#include <stdio.h>
-
 void MovementSystem_Update() {
 	for (int i = 0; i < MAX_ENTITIES; i++) {
 		Entity entity = i;

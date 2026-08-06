@@ -1,20 +1,19 @@
 #ifndef _ACTIVE_H_
 #define _ACTIVE_H_
-#include <types/Entity.h>
 #include <types/Memory.h>
 
 #ifndef MAX_ENTITIES
-#define ACTIVE_POOL_SIZE 8
+#define ACTIVE_POOL_SIZE 1
 
 #else
-#if MAX_ENTITIES >= 8 && MAX_ENTITIES >= BITS_PER_UNIT
-#define ACTIVE_POOL_SIZE (MAX_ENTITIES / BITS_PER_UNIT)
+#if MAX_ENTITIES >= BITS_PER_UNIT
+#define ACTIVE_POOL_SIZE ((MAX_ENTITIES + BITS_PER_UNIT - 1) / BITS_PER_UNIT)
 #else
-#define ACTIVE_POOL_SIZE 8
+#define ACTIVE_POOL_SIZE 1
 
-#endif // MAX_ENTITIES > 8 && MAX_ENTITIES >= BITS_PER_UNIT
+#endif // MAX_ENTITIES >= BITS_PER_UNIT
 
-#endif // !MAX_ENTITIES+
+#endif // !MAX_ENTITIES
 
 
 typedef fxmem_uint Active;
