@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 35,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -67,7 +67,7 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
@@ -129,6 +129,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/include/examples"
 				}
 			],
 			"language" : "C",
@@ -207,24 +211,14 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16
+				6
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				17
+				7
 			]
 		}
 	],
@@ -268,57 +262,7 @@
 		},
 		{
 			"backtrace" : 2,
-			"path" : "include/components/Active.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/components/Position.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/components/RigidBody.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/components/Speed.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/systems/active/ActiveEntities.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/systems/entity/CreateEntity.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/systems/movement/MovementSystem.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/systems/physics/PhysicsSystem.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/types/Entity.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/types/Memory.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "include/types/Vector.h",
+			"path" : "include/examples/Components.h",
 			"sourceGroupIndex" : 1
 		},
 		{

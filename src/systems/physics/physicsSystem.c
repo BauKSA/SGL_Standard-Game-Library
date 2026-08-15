@@ -4,6 +4,9 @@
 #include<components/Position.h>
 #include<components/RigidBody.h>
 #include<components/Speed.h>
+#include<components/Mask.h>
+
+#include<examples/Components.h>
 
 #include<types/Memory.h>
 #include<types/Entity.h>
@@ -43,6 +46,11 @@ void PhysicsSystem_Update() {
 
 void RigidBody_ApplyForces(Entity entity, Vector2 forces) {
 	if (!Entity_IsActive(entity)) return;
+
+	if (!MASK_HAS(entity, COMPONENT_RIGIDBODY)) {
+		printf("La entidad NO tiene RigidBody, no se pueden aplicar fuerzas.\n");
+		return;
+	}
 
 	RigidBody* rigidBody = &RigidBody_Pool[entity];
 

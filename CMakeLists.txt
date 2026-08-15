@@ -23,12 +23,13 @@ add_definitions(-DMAX_ENTITIES=8)
 # Buscamos los archivos
 file(GLOB_RECURSE SOURCES "src/*.c")
 file(GLOB_RECURSE HEADERS "include/*.h")
+file(GLOB_RECURSE HEADERS "include/examples/*.h")
 
 # 1. CREAMOS el ejecutable primero
-add_executable(SGL_Standard-Game-Library ${SOURCES} ${HEADERS} "include/systems/active/ActiveEntities.h" "src/systems/active/activeEntities.c" "src/pools.c" "include/types/Memory.h"  "include/systems/movement/MovementSystem.h" "include/components/Position.h" "src/systems/movement/movementSystem.c" "include/systems/physics/PhysicsSystem.h" "src/systems/physics/physicsSystem.c")
+add_executable(SGL_Standard-Game-Library ${SOURCES} ${HEADERS})
 
 # 2. AHORA definimos los directorios de inclusión para ese target
-target_include_directories(SGL_Standard-Game-Library PRIVATE include)
+target_include_directories(SGL_Standard-Game-Library PRIVATE include include/examples)
 
 # Si estás en Windows con Visual Studio (MSVC), esto ayuda:
 if(MSVC)
