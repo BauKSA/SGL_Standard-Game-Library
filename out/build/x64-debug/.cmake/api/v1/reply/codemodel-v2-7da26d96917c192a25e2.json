@@ -1,0 +1,1267 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Git::Git::@21f3c13ea1f0130b1ae9",
+					"jsonFile" : "target-Git__Git-Debug-536d0a408918d0cff5c7.json",
+					"name" : "Git::Git",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Git::Git::@fb43cff1c00867159135",
+					"jsonFile" : "target-Git__Git-Debug-3cb3b1afb7dd8caee5be.json",
+					"name" : "Git::Git",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PNG::PNG::@5be8095f448a47d3244e",
+					"jsonFile" : "target-PNG__PNG-Debug-4c49e8ede9e1ca1d2f36.json",
+					"name" : "PNG::PNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PNG::png_shared::@5be8095f448a47d3244e",
+					"jsonFile" : "target-PNG__png_shared-Debug-67424f2ba776de7f0c7a.json",
+					"name" : "PNG::png_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "Python3::Interpreter::@c9ff48914e793f0a78c0",
+					"jsonFile" : "target-Python3__Interpreter-Debug-5afff6f96b114831b48d.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "Python3::InterpreterMultiConfig::@c9ff48914e793f0a78c0",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-Debug-67e9ab05e1c67d7b29e7.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL3-collector-Debug-99bd6319922f59c37b9d.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL3_Headers-Debug-ad75d4f8b9b554ad3b11.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL3_test-collector-Debug-e5c2d53b0a0ca8c983fd.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "XMP_IF::@05aabfb815b114b31149",
+					"jsonFile" : "target-XMP_IF-Debug-9cc63096dc5ac19b61f6.json",
+					"name" : "XMP_IF",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZLIB::ZLIB::@5be8095f448a47d3244e",
+					"jsonFile" : "target-ZLIB__ZLIB-Debug-1b7366827c61afddccf1.json",
+					"name" : "ZLIB::ZLIB",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "freetype-interface::@808ebe2bfa4d2f01d192",
+					"jsonFile" : "target-freetype-interface-Debug-99e4905ea398a9bb7539.json",
+					"name" : "freetype-interface",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "gme_deps::@d1d9e388ede319d2fb9a",
+					"jsonFile" : "target-gme_deps-Debug-daf6c6c34336c71b51b4.json",
+					"name" : "gme_deps",
+					"projectIndex" : 9
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						30
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"build" : "_deps/SDL3",
+					"jsonFile" : "directory-_deps.SDL3-Debug-4428a3a6fda12dae5039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/libs/SDL3-3.4.14",
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						3,
+						10
+					],
+					"build" : "_deps/SDL3_image",
+					"jsonFile" : "directory-_deps.SDL3_image-Debug-7da59fe58616a7608743.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "C:/libs/SDL3_image-3.4.4",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						9,
+						19,
+						21,
+						24,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer-Debug-de3e1250df836b9740ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "C:/libs/SDL3_mixer-3.2.4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.ogg-build-Debug-9d89bdc4e1371540f757.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/ogg",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/SDL3_mixer/external/opus-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.opus-build-Debug-8645721f4cce62963a40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 5,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/opus",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "_deps/SDL3_mixer/external/opusfile-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.opusfile-build-Debug-aaf75afe7e41d12d87d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 6,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/opusfile",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/vorbis-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.vorbis-build-Debug-538071e55adf0663298f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 7,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/vorbis"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.vorbis-build.lib-Debug-342f7d7229e4c3861a61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib",
+					"targetIndexes" : 
+					[
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build",
+					"childIndexes" : 
+					[
+						10,
+						17,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build-Debug-777a005242eec68c8790.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src-Debug-05a9858408ebcdff0a5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/libFLAC",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.libFLAC-Debug-f07076cd0af624d204ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/libFLAC",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/share/replaygain_analysis",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.share.replaygain_analysis-Debug-d77c5d29e597a2308b06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/replaygain_analysis",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/share/replaygain_synthesis",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.share.replaygain_synthesis-Debug-845b87af64bb8a7e72d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/replaygain_synthesis",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/share/getopt",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.share.getopt-Debug-5244f17ca319cbc9c5c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/getopt",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/share/utf8",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.share.utf8-Debug-dc9efa3c073b3170e11b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/utf8",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/src/share/grabbag",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.src.share.grabbag-Debug-d448ac4d45fdbd6d1a87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/grabbag",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/microbench",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.microbench-Debug-720ce1138633f0d97375.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/microbench"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/flac-build/doc",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.flac-build.doc-Debug-4cf74bca9349d055d5ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/doc"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libgme-build",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libgme-build-Debug-cd072568b37e5efea1a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 9,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/libgme"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						12
+					],
+					"build" : "_deps/SDL3_mixer/external/libgme-build/gme",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libgme-build.gme-Debug-0898d5018814b7def85f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 9,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/libgme/gme",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						9
+					],
+					"build" : "_deps/SDL3_mixer/external/libxmp-build",
+					"childIndexes" : 
+					[
+						22,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libxmp-build-Debug-9264f055ec83909cdd1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 10,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libxmp-build/examples",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libxmp-build.examples-Debug-c074565141282f574f88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 10,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/examples"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libxmp-build/docs",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libxmp-build.docs-Debug-d90ddb4e914f778d4063.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 10,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/docs"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake",
+					"childIndexes" : 
+					[
+						25
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libmpg123-build.ports.cmake-Debug-378c930098733ea92853.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 11,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src",
+					"childIndexes" : 
+					[
+						26,
+						27,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libmpg123-build.ports.cmake.src-Debug-fda11b4172914be036d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 24,
+					"projectIndex" : 11,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src"
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/compat",
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libmpg123-build.ports.cmake.src.compat-Debug-6d5e10bb3ca3841d86a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 11,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/compat",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/libmpg123",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libmpg123-build.ports.cmake.src.libmpg123-Debug-ee1f30f5827d56ba8ea5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 11,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/libmpg123",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/libsyn123",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.libmpg123-build.ports.cmake.src.libsyn123-Debug-d67e820fc2fbb2ce7ebf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 11,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/libsyn123",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "_deps/SDL3_mixer/external/wavpack-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_mixer.external.wavpack-build-Debug-aa34f510d81488ad8d5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 12,
+					"source" : "C:/libs/SDL3_mixer-3.2.4/external/wavpack",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "_deps/SDL3_ttf",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_ttf-Debug-03ceac8a6b26ede93dcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "C:/libs/SDL3_ttf-3.2.2",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4,
+						5
+					],
+					"build" : "_deps/SDL3_ttf/external/harfbuzz",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_ttf.external.harfbuzz-Debug-34f57aaa90b5668670e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 14,
+					"source" : "C:/libs/SDL3_ttf-3.2.2/external/harfbuzz",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						11
+					],
+					"build" : "_deps/SDL3_ttf/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_ttf.external.freetype-Debug-af06ba90bced405955a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 15,
+					"source" : "C:/libs/SDL3_ttf-3.2.2/external/freetype",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/SDL3_ttf/external/plutovg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.SDL3_ttf.external.plutovg-Debug-2602128efc06f21171d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 16,
+					"source" : "C:/libs/SDL3_ttf-3.2.2/external/plutovg",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "_deps/SDL3_ttf/external/plutosvg",
+					"jsonFile" : "directory-_deps.SDL3_ttf.external.plutosvg-Debug-0e356a7094302e439435.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 17,
+					"source" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg",
+					"targetIndexes" : 
+					[
+						22
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						13
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SGL_Standard-Game-Library",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						3,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL3_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libogg",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Opus",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "OpusFile",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "vorbis",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "FLAC",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						0,
+						12,
+						14,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						12
+					],
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "libgme",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						21,
+						22,
+						23
+					],
+					"name" : "libxmp",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"name" : "mpg123",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "WavPack",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					],
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "SDL3_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "harfbuzz",
+					"parentIndex" : 13,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						11
+					],
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "freetype",
+					"parentIndex" : 13,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "plutovg",
+					"parentIndex" : 13,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "plutosvg",
+					"parentIndex" : 13,
+					"targetIndexes" : 
+					[
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "FLAC::@5cd3cca224cca8fe4a9f",
+					"jsonFile" : "target-FLAC-Debug-dc1bc92b5c82eaca2de3.json",
+					"name" : "FLAC",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL3-shared-Debug-134aba2fafc6697610da.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_image-shared::@5be8095f448a47d3244e",
+					"jsonFile" : "target-SDL3_image-shared-Debug-902f62628f2327227c0c.json",
+					"name" : "SDL3_image-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL3_mixer-shared::@4db4af6fa243d8b54d7d",
+					"jsonFile" : "target-SDL3_mixer-shared-Debug-0f9d7491d6ac709208d5.json",
+					"name" : "SDL3_mixer-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL3_test-Debug-b7be40c16c9ebeae550a.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "SDL3_ttf-shared::@361b6114d260e6709bce",
+					"jsonFile" : "target-SDL3_ttf-shared-Debug-f0f863a8ca49febbfceb.json",
+					"name" : "SDL3_ttf-shared",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@8a6effea53c4d7adc45f",
+					"jsonFile" : "target-SDL_uclibc-Debug-a17a35939a55085f66e0.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SGL_Standard-Game-Library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SGL_Standard-Game-Library-Debug-e15d1e256a066f068fcb.json",
+					"name" : "SGL_Standard-Game-Library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "compat::@872fc12e94c2eb3d4ff7",
+					"jsonFile" : "target-compat-Debug-cfcb2ad6aa5d67c75f58.json",
+					"name" : "compat",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "compat_dl::@872fc12e94c2eb3d4ff7",
+					"jsonFile" : "target-compat_dl-Debug-3d6b09d56d4ff01aa64e.json",
+					"name" : "compat_dl",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "compat_str::@872fc12e94c2eb3d4ff7",
+					"jsonFile" : "target-compat_str-Debug-b9aa755cae9c66db6db1.json",
+					"name" : "compat_str",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "freetype::@808ebe2bfa4d2f01d192",
+					"jsonFile" : "target-freetype-Debug-713c7915fcecb204dd64.json",
+					"name" : "freetype",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "getopt::@5141bf6ee6959c08da4a",
+					"jsonFile" : "target-getopt-Debug-bc37f29b3c8b9f8ccc15.json",
+					"name" : "getopt",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "gme_shared::@d1d9e388ede319d2fb9a",
+					"jsonFile" : "target-gme_shared-Debug-21d2dd0457832805f971.json",
+					"name" : "gme_shared",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "grabbag::@3252a10058968d2311cf",
+					"jsonFile" : "target-grabbag-Debug-81cc757b2147d9047454.json",
+					"name" : "grabbag",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "harfbuzz::@c9ff48914e793f0a78c0",
+					"jsonFile" : "target-harfbuzz-Debug-c3b1f9af1933b0392d5a.json",
+					"name" : "harfbuzz",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "libmpg123::@033378d4236f29ea742d",
+					"jsonFile" : "target-libmpg123-Debug-c5523cff3a5957ca13f0.json",
+					"name" : "libmpg123",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "libsyn123::@475d084e4b4cd9ccbfcb",
+					"jsonFile" : "target-libsyn123-Debug-cc5f867de50cecddbebd.json",
+					"name" : "libsyn123",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ogg::@5cbbfb29c7bf112479d9",
+					"jsonFile" : "target-ogg-Debug-ed3466b94dbd4c5fafc5.json",
+					"name" : "ogg",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "opus::@21f3c13ea1f0130b1ae9",
+					"jsonFile" : "target-opus-Debug-57942fea3efc212711da.json",
+					"name" : "opus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "opusfile::@fb43cff1c00867159135",
+					"jsonFile" : "target-opusfile-Debug-8a758d65c19e78d293c1.json",
+					"name" : "opusfile",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "opusurl::@fb43cff1c00867159135",
+					"jsonFile" : "target-opusurl-Debug-07471f5917f1055c009a.json",
+					"name" : "opusurl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "plutosvg::@9358efdc550b62601581",
+					"jsonFile" : "target-plutosvg-Debug-cb4f2cdfcb28b96169e3.json",
+					"name" : "plutosvg",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "plutovg::@076d8016eabffdd17d93",
+					"jsonFile" : "target-plutovg-Debug-88fd303ec038b6f6b713.json",
+					"name" : "plutovg",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "replaygain_analysis::@8ec9e813872cc774a428",
+					"jsonFile" : "target-replaygain_analysis-Debug-568465a7f97757cfb690.json",
+					"name" : "replaygain_analysis",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "replaygain_synthesis::@476ee057040bf51d78a2",
+					"jsonFile" : "target-replaygain_synthesis-Debug-88f97b2022e8928a2bac.json",
+					"name" : "replaygain_synthesis",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "utf8::@392dd4d73f9ac6f20c5e",
+					"jsonFile" : "target-utf8-Debug-8a0b359c0493376eff12.json",
+					"name" : "utf8",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "vorbis::@5dc606f975d842fd4b6a",
+					"jsonFile" : "target-vorbis-Debug-01fde08d054e2d5091c6.json",
+					"name" : "vorbis",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "vorbisenc::@5dc606f975d842fd4b6a",
+					"jsonFile" : "target-vorbisenc-Debug-4659aea03d72f4b3179d.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "vorbisfile::@5dc606f975d842fd4b6a",
+					"jsonFile" : "target-vorbisfile-Debug-3e9de182a73a443dc729.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "wavpack::@f2581517a4a62a0a2130",
+					"jsonFile" : "target-wavpack-Debug-3826799d0194074fa509.json",
+					"name" : "wavpack",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "xmp_shared::@05aabfb815b114b31149",
+					"jsonFile" : "target-xmp_shared-Debug-0101faadf1e233cd29d0.json",
+					"name" : "xmp_shared",
+					"projectIndex" : 10
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug",
+		"source" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

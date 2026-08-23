@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/libs/SDL3_mixer-3.2.4/external/flac/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/FLAC",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/all.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/assert.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/callback.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/export.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/format.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/metadata.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/ordinals.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/stream_decoder.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC/stream_encoder.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/FLAC++",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC++/all.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC++/decoder.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC++/encoder.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC++/export.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/flac/include/FLAC++/metadata.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/flac-build",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac"
+	}
+}

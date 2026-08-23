@@ -1,0 +1,61 @@
+{
+	"abstract" : true,
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Users/Bau_M/OneDrive/Documents/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/libs/SDL3-3.4.14/cmake/sdlcommands.cmake",
+			"C:/libs/SDL3-3.4.14/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 3
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "SDL3_test-collector::@8a6effea53c4d7adc45f",
+	"name" : "SDL3_test-collector",
+	"paths" : 
+	{
+		"build" : "_deps/SDL3",
+		"source" : "C:/libs/SDL3-3.4.14"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

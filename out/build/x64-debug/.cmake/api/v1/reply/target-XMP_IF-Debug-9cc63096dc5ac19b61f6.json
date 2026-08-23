@@ -1,0 +1,70 @@
+{
+	"abstract" : true,
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"C:/Users/Bau_M/OneDrive/Documents/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/libs/SDL3_mixer-3.2.4/external/libxmp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 265,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "XMP_IF::@05aabfb815b114b31149",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "xmp_shared::@05aabfb815b114b31149"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "xmp_shared::@05aabfb815b114b31149"
+		}
+	],
+	"name" : "XMP_IF",
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/libxmp-build",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

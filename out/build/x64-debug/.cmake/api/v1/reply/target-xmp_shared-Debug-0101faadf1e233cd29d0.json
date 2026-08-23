@@ -1,0 +1,1021 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/SDL3_mixer/external/libxmp-build/libxmp.dll"
+		},
+		{
+			"path" : "_deps/SDL3_mixer/external/libxmp-build/libxmp.lib"
+		},
+		{
+			"path" : "_deps/SDL3_mixer/external/libxmp-build/libxmp.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"install",
+			"add_custom_command",
+			"target_compile_definitions",
+			"add_definitions",
+			"xmp_check_function",
+			"include",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"C:/Users/Bau_M/OneDrive/Documents/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/libs/SDL3_mixer-3.2.4/external/libxmp/CMakeLists.txt",
+			"C:/libs/SDL3_mixer-3.2.4/external/libxmp/cmake/libxmp-checks.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 663,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 68,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W4 /Zi /Ob0 /Od /RTC1 -DDEBUG -D_DEBUG -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILDING_DLL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_POWF=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LIBXMP_NO_DEPACKERS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LIBXMP_NO_PROWIZARD"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "MAX_ENTITIES=8"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "PLATFORM_PC"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"define" : "xmp_shared_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "90"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93
+			]
+		}
+	],
+	"id" : "xmp_shared::@05aabfb815b114b31149",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/install/x64-debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "xmp_shared",
+	"nameOnDisk" : "libxmp.dll",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "xmp_shared::@05aabfb815b114b31149"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/libxmp-build",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/virtual.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/format.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/period.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/player.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/read_event.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/dataio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/mkstemp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/lfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/scan.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/far_extras.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/med_extras.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/filter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/effects.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/flow.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/mixer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/mix_all.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/rng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/load_helpers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/hio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/hmn_extras.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/extras.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/smix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/path.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/filetype.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/memio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/tempfile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/mix_paula.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/miniz_tinfl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/win32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/iff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/itsex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/lzw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/voltable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/sample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/vorbis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/xm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mod_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/s3m_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/stm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/669_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/far_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mtm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/ptm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/okt_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/ult_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mdl_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/it_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/stx_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/pt3_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/sfx_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/flt_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/st_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/emod_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/imf_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/digi_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/fnk_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/ice_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/liq_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/ims_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/masi_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/masi16_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/amf_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/stim_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mmd_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mmd1_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mmd3_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/rtm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/dt_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/no_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/arch_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/sym_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/med2_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/med3_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/med4_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/dbm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/umx_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/gdm_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/pw_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/gal5_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/gal4_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mfp_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/asylum_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/muse_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/hmn_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/mgt_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/chip_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/abk_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/coco_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp/src/loaders/xmf_load.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

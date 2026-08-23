@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/install/x64-debug/include/vorbis",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib/../include/vorbis/codec.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib/../include/vorbis/vorbisenc.h",
+				"C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib/../include/vorbis/vorbisfile.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbis.lib"
+			],
+			"targetId" : "vorbis::@5dc606f975d842fd4b6a",
+			"targetIndex" : 27,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbis-0.dll"
+			],
+			"targetId" : "vorbis::@5dc606f975d842fd4b6a",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbisenc.lib"
+			],
+			"targetId" : "vorbisenc::@5dc606f975d842fd4b6a",
+			"targetIndex" : 28,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbisenc-2.dll"
+			],
+			"targetId" : "vorbisenc::@5dc606f975d842fd4b6a",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbisfile.lib"
+			],
+			"targetId" : "vorbisfile::@5dc606f975d842fd4b6a",
+			"targetIndex" : 29,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/vorbis-build/lib/vorbisfile-3.dll"
+			],
+			"targetId" : "vorbisfile::@5dc606f975d842fd4b6a",
+			"targetIndex" : 29,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/vorbis-build/lib",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/vorbis/lib"
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/libsyn123/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/libsyn123/syn123.lib"
+			],
+			"targetId" : "libsyn123::@475d084e4b4cd9ccbfcb",
+			"targetIndex" : 17,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/libsyn123/syn123-0.dll"
+			],
+			"targetId" : "libsyn123::@475d084e4b4cd9ccbfcb",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/libsyn123/../../../../src/include/syn123.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/libmpg123-build/ports/cmake/src/libsyn123",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/mpg123/ports/cmake/src/libsyn123"
+	}
+}

@@ -1,0 +1,291 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/SDL3_ttf/external/plutosvg/plutosvg.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"C:/Users/Bau_M/OneDrive/Documents/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/libs/SDL3_ttf-3.2.2/external/plutosvg/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "plutovg::@076d8016eabffdd17d93"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freetype::@808ebe2bfa4d2f01d192"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "MAX_ENTITIES=8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "PLATFORM_PC"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLUTOSVG_BUILD"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "PLUTOSVG_BUILD_STATIC"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PLUTOSVG_HAS_FREETYPE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PLUTOVG_BUILD_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg/source"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Bau_M/OneDrive/Desktop/SGL_Standard-Game-Library/out/build/x64-debug/_deps/SDL3_ttf/external/freetype/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/libs/SDL3_ttf-3.2.2/external/freetype/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/libs/SDL3_ttf-3.2.2/external/plutovg/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					13
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "harfbuzz::@c9ff48914e793f0a78c0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "plutovg::@076d8016eabffdd17d93"
+		}
+	],
+	"id" : "plutosvg::@9358efdc550b62601581",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "plutovg::@076d8016eabffdd17d93"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "plutovg::@076d8016eabffdd17d93"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freetype::@808ebe2bfa4d2f01d192"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "plutovg::@076d8016eabffdd17d93"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freetype::@808ebe2bfa4d2f01d192"
+		}
+	],
+	"name" : "plutosvg",
+	"nameOnDisk" : "plutosvg.lib",
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_ttf/external/plutosvg",
+		"source" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg/source/plutosvg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg/source/plutosvg-ft.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/libs/SDL3_ttf-3.2.2/external/plutosvg/source/plutosvg.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

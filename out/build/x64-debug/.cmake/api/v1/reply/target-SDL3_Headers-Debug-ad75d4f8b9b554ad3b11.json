@@ -1,0 +1,49 @@
+{
+	"abstract" : true,
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library"
+		],
+		"files" : 
+		[
+			"C:/Users/Bau_M/OneDrive/Documents/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/libs/SDL3-3.4.14/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3920,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "SDL3_Headers::@8a6effea53c4d7adc45f",
+	"name" : "SDL3_Headers",
+	"paths" : 
+	{
+		"build" : "_deps/SDL3",
+		"source" : "C:/libs/SDL3-3.4.14"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

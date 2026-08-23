@@ -45,4 +45,10 @@ typedef int64_t fxmem_multiplicator;
 #define FXD_SHIFT 8
 #define FXD_DT ((1 << FXD_SHIFT) / FPS)
 
+// WINDOW TYPES
+#ifdef PLATFORM_PC
+#include<SDL3/SDL.h>
+typedef SDL_Window* WindowHandle;
+#endif
+
 #endif // !_MEMORY_H_

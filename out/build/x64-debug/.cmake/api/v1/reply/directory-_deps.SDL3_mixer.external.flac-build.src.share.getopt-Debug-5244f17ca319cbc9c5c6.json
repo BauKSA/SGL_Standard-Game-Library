@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/flac-build/src/share/getopt",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/flac/src/share/getopt"
+	}
+}

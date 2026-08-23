@@ -1,0 +1,136 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/libs/SDL3_mixer-3.2.4/external/libxmp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 347,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 352,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/libxmp-build/libxmp.lib"
+			],
+			"targetId" : "xmp_shared::@05aabfb815b114b31149",
+			"targetIndex" : 31,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/libxmp-build/libxmp.dll"
+			],
+			"targetId" : "xmp_shared::@05aabfb815b114b31149",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "libxmp_shared_exports",
+			"exportTargets" : 
+			[
+				{
+					"id" : "xmp_shared::@05aabfb815b114b31149",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"_deps/SDL3_mixer/external/libxmp-build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/libxmp-shared-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/libxmp/libxmp-config.cmake",
+				"out/build/x64-debug/_deps/SDL3_mixer/external/libxmp-build/libxmp-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"C:/libs/SDL3_mixer-3.2.4/external/libxmp/include/xmp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-debug/_deps/SDL3_mixer/external/libxmp-build/libxmp.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/SDL3_mixer/external/libxmp-build",
+		"source" : "C:/libs/SDL3_mixer-3.2.4/external/libxmp"
+	}
+}

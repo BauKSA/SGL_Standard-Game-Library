@@ -4,9 +4,16 @@ project(SGL_Standard-Game-Library LANGUAGES C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
+set(LIBS_ROOT "C:/libs")
+
 # Creamos una opción que por defecto está en OFF
 option(USE_LIMITED_MEMORY "Activar modo de memoria reducida" OFF)
 option(USE_LOWEST_MEMORY "Activar modo de memoria mínima" OFF)
+
+# Opciones de plataforma
+option(USE_PLATFORM_PC "Activar PC como plataforma" ON)
+option(USE_PLATFORM_DOS "Activar DOS como plataforma" OFF)
+option(USE_PLATFORM_GB "Activar Game Boy como plataforma" OFF)
 
 if(USE_LIMITED_MEMORY)
     add_definitions(-DUSE_LIMITED_MEMORY)
@@ -30,6 +37,23 @@ add_executable(SGL_Standard-Game-Library ${SOURCES} ${HEADERS})
 
 # 2. AHORA definimos los directorios de inclusión para ese target
 target_include_directories(SGL_Standard-Game-Library PRIVATE include include/examples)
+
+if(USE_PLATFORM_PC)
+    # Definimos laplataforma. Por ahora, PC
+    add_definitions(-DPLATFORM_PC)
+    # 3. Si estamos en PC, añadimos las librerías necesarias
+    add_subdirectory(${LIBS_ROOT}/SDL3-3.4.14 ${CMAKE_BINARY_DIR}/_deps/SDL3 EXCLUDE_FROM_ALL)
+    add_subdirectory(${LIBS_ROOT}/SDL3_image-3.4.4 ${CMAKE_BINARY_DIR}/_deps/SDL3_image EXCLUDE_FROM_ALL)
+    add_subdirectory(${LIBS_ROOT}/SDL3_mixer-3.2.4 ${CMAKE_BINARY_DIR}/_deps/SDL3_mixer EXCLUDE_FROM_ALL)
+    add_subdirectory(${LIBS_ROOT}/SDL3_ttf-3.2.2 ${CMAKE_BINARY_DIR}/_deps/SDL3_ttf EXCLUDE_FROM_ALL)
+
+    target_link_libraries(SGL_Standard-Game-Library PRIVATE
+        SDL3::SDL3
+        SDL3_image::SDL3_image
+        SDL3_mixer::SDL3_mixer
+        SDL3_ttf::SDL3_ttf
+    )
+endif()
 
 # Si estás en Windows con Visual Studio (MSVC), esto ayuda:
 if(MSVC)
