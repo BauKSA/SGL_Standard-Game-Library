@@ -1,0 +1,37 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/djgpp/lib/gcc/i586-pc-msdosdjgpp/12.2.0/include",
+						"C:/djgpp/lib/gcc/i586-pc-msdosdjgpp/12.2.0/include-fixed",
+						"C:/djgpp/i586-pc-msdosdjgpp/sys-include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/djgpp/bin/i586-pc-msdosdjgpp-gcc.exe",
+				"version" : "12.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

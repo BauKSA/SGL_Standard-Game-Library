@@ -1,4 +1,4 @@
-#ifdef PLATFORM_PC
+#if defined(PLATFORM_PC) || defined(PLATFORM_DOS)
 #include <systems/clock/ClockSystem.h>
 #include <types/Memory.h>
 

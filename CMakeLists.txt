@@ -11,8 +11,8 @@ option(USE_LIMITED_MEMORY "Activar modo de memoria reducida" OFF)
 option(USE_LOWEST_MEMORY "Activar modo de memoria mínima" OFF)
 
 # Opciones de plataforma
-option(USE_PLATFORM_PC "Activar PC como plataforma" ON)
-option(USE_PLATFORM_DOS "Activar DOS como plataforma" OFF)
+option(USE_PLATFORM_PC "Activar PC como plataforma" OFF)
+option(USE_PLATFORM_DOS "Activar DOS como plataforma" ON)
 option(USE_PLATFORM_GB "Activar Game Boy como plataforma" OFF)
 
 if(USE_LIMITED_MEMORY)
@@ -52,6 +52,26 @@ if(USE_PLATFORM_PC)
         SDL3_image::SDL3_image
         SDL3_mixer::SDL3_mixer
         SDL3_ttf::SDL3_ttf
+    )
+endif()
+
+if(USE_PLATFORM_DOS)
+    add_definitions(-DPLATFORM_DOS)
+    target_compile_options(SGL_Standard-Game-Library PRIVATE -fgnu89-inline)
+    # Antes: hardcodeado a "C:/libs/allegro". Ahora es una cache var,
+    # así cada dev puede pisarla con -DALLEGRO4_ROOT=... sin tocar el archivo.
+    set(ALLEGRO4_ROOT "${LIBS_ROOT}/allegro" CACHE PATH "Carpeta con el código fuente de Allegro 4 ya compilado")
+
+    target_include_directories(SGL_Standard-Game-Library PRIVATE
+        ${ALLEGRO4_ROOT}/include
+    )
+
+    target_link_directories(SGL_Standard-Game-Library PRIVATE
+        ${ALLEGRO4_ROOT}/lib/djgpp
+    )
+
+    target_link_libraries(SGL_Standard-Game-Library PRIVATE
+        alleg
     )
 endif()
 

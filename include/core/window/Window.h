@@ -17,5 +17,9 @@ typedef struct Window_Config {
 } Window_Config;
 
 fxmem_int Window_Init(Window_Config* config);
+void Window_Fullscreen(WindowHandle window);
+void Window_Windowed(WindowHandle window);
+
+void Window_Close(WindowHandle window);
 
 #endif // _WINDOW_H_

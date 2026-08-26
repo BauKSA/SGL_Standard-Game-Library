@@ -20,4 +20,16 @@ fxmem_int Window_Init(Window_Config* config) {
     return window != NULL;
 }
 
+void Window_Fullscreen(WindowHandle window) {
+	SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN);
+}
+
+void Window_Windowed(WindowHandle window) {
+	SDL_SetWindowFullscreen(window, 0);
+}
+
+void Window_Close(WindowHandle window) {
+	SDL_DestroyWindow(window);
+}
+
 #endif

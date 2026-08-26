@@ -49,6 +49,9 @@ typedef int64_t fxmem_multiplicator;
 #ifdef PLATFORM_PC
 #include<SDL3/SDL.h>
 typedef SDL_Window* WindowHandle;
+#elif PLATFORM_DOS
+#include <allegro.h>
+typedef BITMAP* WindowHandle;
 #endif
 
 #endif // !_MEMORY_H_
